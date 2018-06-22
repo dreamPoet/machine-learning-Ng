@@ -67,3 +67,8 @@ lanmbda:  It determines how much the costs of our theta parameters are inflated.
 update theta: intuitionly, it shrink theta to 0 a little and then do update as without regularization one.
 
 
+Quiz:
+1:
+Q: Introducing regularization to the model always results in equal or better performance on examples not in the training set.
+
+A: False; If we introduce too much regularization, we can underfit the training set and this can lead to worse performance even for examples not in the training set.
