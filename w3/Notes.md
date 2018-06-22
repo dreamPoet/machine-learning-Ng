@@ -72,3 +72,8 @@ Quiz:
 Q: Introducing regularization to the model always results in equal or better performance on examples not in the training set.
 
 A: False; If we introduce too much regularization, we can underfit the training set and this can lead to worse performance even for examples not in the training set.
+
+2: 
+Q: Because regularization causes J(θ) to no longer be convex, gradient descent may not always converge to the global minimum (when λ > 0, and when using an appropriate learning rate α).	
+
+A: Regularized logistic regression and regularized linear regression are both convex, and thus gradient descent will still converge to the global minimum.
