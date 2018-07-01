@@ -28,7 +28,7 @@ W2: Linear regression with multiple variables
 
 W3: Logistic regression; Regularization
 
-W4/5: Neural Networks; FD; BP;
+W4/5: Neural Networks; FF; BP;
 
 W6: Validation; Learning curve; regularizaiton with bias and variance; Error metrics(F1 score; precision; recall; accuracy)
 
