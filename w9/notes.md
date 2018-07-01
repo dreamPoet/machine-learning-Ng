@@ -35,5 +35,5 @@ Random initialization serves as symmetry breaking (similar to the random initial
 
 
 **mean normalization** - if a user does not mark for any movie, we assume its grading as the avg. pre-processing.
-
+S
 If  there is no marking for a movie, we can try to do mean normalization along column instead of row(a user does not marking any movies); but this is trivial as if a movie does not marking by anyone, you should not recommend it to anyone.
